@@ -1,14 +1,11 @@
 package com.talhajavedmukhtar.ferret.HostScanner;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.os.Bundle;
-import android.support.annotation.RequiresApi;
+
+import androidx.annotation.RequiresApi;
 import android.util.Log;
-import android.view.View;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -17,24 +14,15 @@ import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.talhajavedmukhtar.ferret.InitialSurveyWebviewActivity;
 import com.talhajavedmukhtar.ferret.Model.Host;
 import com.talhajavedmukhtar.ferret.MyApp;
-import com.talhajavedmukhtar.ferret.R;
 import com.talhajavedmukhtar.ferret.Util.Tags;
 import com.talhajavedmukhtar.ferret.Util.Utils;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.net.Inet4Address;
-import java.net.InetAddress;
-import java.net.UnknownHostException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * Created by Talha on 11/20/18.

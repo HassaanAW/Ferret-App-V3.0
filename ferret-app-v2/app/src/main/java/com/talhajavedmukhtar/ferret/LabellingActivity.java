@@ -2,7 +2,7 @@ package com.talhajavedmukhtar.ferret;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
@@ -21,12 +21,8 @@ import com.talhajavedmukhtar.ferret.Util.DataHandler;
 import com.talhajavedmukhtar.ferret.Util.NothingSelectedSpinnerAdapter;
 import com.talhajavedmukhtar.ferret.Util.Tags;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Queue;
-import java.util.Stack;
 
 public class LabellingActivity extends AppCompatActivity {
     private String TAG = Tags.makeTag("LabellingActivity");

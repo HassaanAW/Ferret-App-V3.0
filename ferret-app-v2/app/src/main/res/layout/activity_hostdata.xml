@@ -192,7 +192,7 @@
             android:textColor="@color/Black"
             android:textSize="20dp" />
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
 
             android:id="@+id/vulndetails"
             android:layout_width="match_parent"
