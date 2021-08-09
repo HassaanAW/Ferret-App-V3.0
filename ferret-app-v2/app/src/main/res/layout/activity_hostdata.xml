@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="3"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/deviceDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:background="#1098E4"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Device Details"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/vendorLabel"
+            android:layout_width="120dp"
+            android:layout_height="73dp"
+            android:layout_below="@id/deviceDetails"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Vendor:"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/vendor"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+
+            android:layout_below="@id/deviceDetails"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/vendorLabel"
+
+            android:text="..."
+            android:textColor="@color/Shakespeare"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deviceNameLabel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vendorLabel"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Name:"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/deviceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vendor"
+            android:layout_marginLeft="0dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/deviceNameLabel"
+
+            android:text="..."
+            android:textColor="@color/Shakespeare"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ipAddressLabel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deviceNameLabel"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="IP Address:"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/ipAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/deviceNameLabel"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/ipAddressLabel"
+
+            android:text="..."
+            android:textColor="@color/Shakespeare"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/open_portsLabel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ipAddressLabel"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Open Ports:"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/open_ports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ipAddress"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/open_portsLabel"
+
+            android:text="..."
+            android:textColor="@color/Shakespeare"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/vulnerableLabel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/open_portsLabel"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Vulnerable:"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/vulnerable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/open_ports"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/vulnerableLabel"
+
+            android:text="..."
+            android:textColor="@color/Blood"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/numvulnerableLabel"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vulnerable"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Number of Vulnerabilities:"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/numvulnerable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vulnerable"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/numvulnerableLabel"
+
+            android:text="..."
+            android:textColor="@color/Blood"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/vulndetailsheading"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numvulnerableLabel"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Vulnerability Details"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/vulndetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vulndetailsheading"
+
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
