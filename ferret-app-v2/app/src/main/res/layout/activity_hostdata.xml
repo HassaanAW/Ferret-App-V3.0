@@ -154,7 +154,8 @@
 
             android:text="..."
             android:textColor="@color/Blood"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/numvulnerableLabel"
@@ -179,7 +180,8 @@
 
             android:text="..."
             android:textColor="@color/Blood"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/vulndetailsheading"
@@ -189,8 +191,9 @@
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-condensed-medium"
             android:text="Vulnerability Details"
-            android:textColor="@color/Black"
-            android:textSize="20dp" />
+            android:textColor="@color/frowncolors"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <androidx.recyclerview.widget.RecyclerView
 
