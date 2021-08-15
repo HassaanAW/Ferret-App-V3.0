@@ -20,7 +20,7 @@ public class SmartDevice extends AppCompatActivity {
 
     private String get_age, get_region, get_ISP, get_gender, get_city, get_MAC;
     private String get_degree, get_industry, get_security, get_course, get_sec_course, get_language;
-    private CheckBox Smartphone, Router, SmartTV, SecuritySystem, Health, Sensor, DoorLock, SmartLight, HomeAssist, Others;
+    private CheckBox Smartphone, Router, SmartTV, SecuritySystem, Health, Sensor, SmartWatch, SmartLight, HomeAssist, Others;
     private RadioButton Functionality, Convenience, PriSec, Brand, Price;
     private String get_priority;
     private List<String> SmartDevices = new ArrayList<String>();
@@ -36,7 +36,7 @@ public class SmartDevice extends AppCompatActivity {
         SecuritySystem = (CheckBox) findViewById(R.id.checkBox7);
         Health = (CheckBox) findViewById(R.id.checkBox8);
         Sensor = (CheckBox) findViewById(R.id.checkBox9);
-        DoorLock = (CheckBox) findViewById(R.id.checkBox10);
+        SmartWatch = (CheckBox) findViewById(R.id.checkBox10);
         SmartLight = (CheckBox) findViewById(R.id.checkBox11);
         HomeAssist = (CheckBox) findViewById(R.id.checkBox12);
         Others = (CheckBox) findViewById(R.id.checkBox13);
@@ -83,8 +83,8 @@ public class SmartDevice extends AppCompatActivity {
         if(Sensor.isChecked()){
             SmartDevices.add(Sensor.getText().toString());
         }
-        if(DoorLock.isChecked()){
-            SmartDevices.add(DoorLock.getText().toString());
+        if(SmartWatch.isChecked()){
+            SmartDevices.add(SmartWatch.getText().toString());
         }
         if(SmartLight.isChecked()){
             SmartDevices.add(SmartLight.getText().toString());
@@ -137,24 +137,24 @@ public class SmartDevice extends AppCompatActivity {
 //            db.collection("Participants").document(get_MAC).set(map);
             Toast.makeText(SmartDevice.this, "Survey Three complete!", Toast.LENGTH_SHORT).show();
 
-//            Intent intent = new Intent(this, SmartDevice.class);
-//            intent.putExtra("MAC", get_MAC);
-//            intent.putExtra("Age", get_age);
-//            intent.putExtra("Gender", get_gender);
-//            intent.putExtra("City", get_city);
-//            intent.putExtra("Region", get_region);
-//            intent.putExtra("ISP", get_ISP);
-//
-//            intent.putExtra("Degree", get_degree);
-//            intent.putExtra("Industry", get_industry);
-//            intent.putExtra("Field", get_security);
-//            intent.putExtra("Courses", get_course);
-//            intent.putExtra("SecurityCourse", get_sec_course);
-//            intent.putExtra("Language", get_language);
-//
-//            intent.putStringArrayListExtra("SmartDevices", (ArrayList<String>) SmartDevices);
-//            intent.putExtra("FirstPriority", get_priority);
-//            startActivity(intent);
+            Intent intent = new Intent(this, Experience.class);
+            intent.putExtra("MAC", get_MAC);
+            intent.putExtra("Age", get_age);
+            intent.putExtra("Gender", get_gender);
+            intent.putExtra("City", get_city);
+            intent.putExtra("Region", get_region);
+            intent.putExtra("ISP", get_ISP);
+
+            intent.putExtra("Degree", get_degree);
+            intent.putExtra("Industry", get_industry);
+            intent.putExtra("Field", get_security);
+            intent.putExtra("Courses", get_course);
+            intent.putExtra("SecurityCourse", get_sec_course);
+            intent.putExtra("Language", get_language);
+
+            intent.putStringArrayListExtra("SmartDevices", (ArrayList<String>) SmartDevices);
+            intent.putExtra("FirstPriority", get_priority);
+            startActivity(intent);
         }
 
     }

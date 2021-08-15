@@ -114,19 +114,53 @@
     <string name="Title">Demographic Details</string>
     <string name="Title2">Tech Expertise</string>
     <string name="Title3">Smart Devices</string>
+    <string name="Title4">Experience</string>
     <string name="Q1">Age Group</string>
     <string name="Q2">Gender</string>
     <string name="Q3">City</string>
-    <string name="Q4">Region</string>
+    <string name="Q4">Society/Town</string>
     <string name="Q5">WiFi Network</string>
-    <string name="Q6">Do you have a degree in Computer Science or a related field?</string>
-    <string name="Q7">Have you worked in the technology industry?</string>
-    <string name="Q8">Have you worked in a security related field?</string>
-    <string name="Q9">Have you taken courses (online or physical) related to computer science in the past two years?</string>
-    <string name="Q10">Have you taken any security related courses?</string>
-    <string name="Q11">Are you proficient in any programming language?</string>
-    <string name="Q12">Please list all the smart devices that you have at home (connected to WiFi).</string>
-    <string name="Q13">What factor do you consider as your first priority while purchasing a smart home device? </string>
+    <string name="Q6">Q1. Do you have (or are pursuing) a degree in Computer Science or a related field?</string>
+    <string name="Q7">Q2. Have you worked in the technology industry?</string>
+    <string name="Q8">Q2b. Have you worked in a security related field?</string>
+    <string name="Q9">Q3. Have you taken courses (online or physical) related to computer science in the past two years?</string>
+    <string name="Q10">Q3b. Have you taken any security related courses?</string>
+    <string name="Q11">Q4. Are you proficient in any programming language?</string>
+    <string name="Q12">Q1. Please list all the smart devices that you have at home (connected to WiFi).</string>
+    <string name="Q13">Q2. What factor do you consider as your first priority while purchasing a smart home device? </string>
+    <string name="Q14">Q1. Do you think any sort of data is being collected by your smart devices? </string>
+    <string name="Q15">Q2. What sort of data do you think smart home devices collect? Please select all that apply.</string>
+    <string name="Q16">Q3. Are you concerned about data being recorded by your smart home devices? </string>
+    <string name="Q17">Q4. Who do you think can access data collected from your smart home devices? Please select all that apply </string>
+    <string name="S18">Q5. Would you be concerned if data collected from each of your smart home devices can be accessed by the following entities: </string>
+    <string name="Q18">a) Company that manufactures the device </string>
+    <string name="Q19">b) Online Advertisers </string>
+    <string name="Q20">c) Government’s Information Technology departments </string>
+    <string name="Q21">d) Companies that provide Internet service  </string>
+    <string name="Q22">e) A random person </string>
+    <string name="Q23">Q6. How do you feel about (possibly) having security cameras inside homes? </string>
+    <string name="Q24">Q7. Do you think data from smart devices is capable of predicting lifestyles and routines of users?</string>
+    <string name="Q25">Q8. Do you think an unauthorized user can <b><i>obtain data</i></b> from your smart device?</string>
+    <string name="S25">An unauthorized user is someone who should not be trusted to have access to a particular information or system.</string>
+    <string name="Q26">Q9. Do you think an unauthorized user can <b><i>control</i></b> your smart devices (e.g. change settings)?</string>
+    <string name="S26">An unauthorized user is someone who should not be trusted to have access to a particular information or system. </string>
+    <string name="Q27">Q10. Which smart home device will you be (or are) concerned the most about (generally)? </string>
+    <string name="Q28">Q11. Why would you be concerned with the smart home devices you chose in the previous question? Please select all that apply. </string>
+    <string name="Q29">Q12. Have you taken any steps to keep your smart devices safe from unauthorized access? Please select all that apply. </string>
+    <string name="Q30">Q13. If there was an app that can identify weaknesses (viruses, leaked passwords, outdated softwares etc) in your smart home devices, would you use it often?</string>
+    <string name="Q31">Q14. Would you feel concerned if your smart home devices showed weaknesses (viruses, leaked passwords, outdated softwares etc)?  </string>
+
+
+    <string name="Q32">Which smart home device will you be (or are) concerned the most about (generally)? </string>
+    <string name="Q33">Which smart home device will you be (or are) concerned the most about (generally)? </string>
+    <string name="Q34">Which smart home device will you be (or are) concerned the most about (generally)? </string>
+    <string name="Q35">Which smart home device will you be (or are) concerned the most about (generally)? </string>
+    <string name="Q36">Which smart home device will you be (or are) concerned the most about (generally)? </string>
+    <string name="Q37">Which smart home device will you be (or are) concerned the most about (generally)? </string>
+    <string name="Q38">Which smart home device will you be (or are) concerned the most about (generally)? </string>
+    <string name="Q39">Which smart home device will you be (or are) concerned the most about (generally)? </string>
+    <string name="Q40">Which smart home device will you be (or are) concerned the most about (generally)? </string>
+
 
 
 </resources>

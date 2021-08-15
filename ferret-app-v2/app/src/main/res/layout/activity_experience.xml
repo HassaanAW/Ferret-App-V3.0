@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1500dp"
+        tools:context=".Experience">
+
+        <Button
+            android:id="@+id/addButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="88dp"
+            android:onClick="onClick"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:backgroundTint="#1098E4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout27" />
+
+        <Button
+            android:id="@+id/addButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:onClick="Previous"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:backgroundTint="#1098E4"
+            app:layout_constraintEnd_toStartOf="@+id/addButton4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout27" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="330dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q31"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout26" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="330dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q29"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout24" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="330dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q30"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout25" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout25"
+            android:layout_width="330dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36">
+
+            <CheckBox
+                android:id="@+id/checkBox25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Did not take any additional steps"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Regularly updated passwords (once every three months)"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Installed software upgrades"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Used apps to scan for weaknesses (leaked passwords, virus, outdated softwares etc)"
+                app:buttonTint="#61B0C8" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="330dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/S25"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#61B0C8"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q21"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout16" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="330dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q22"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout17" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q23"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout18" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="330dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q24"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout19" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q25"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout20" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="330dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q26"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout21" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="330dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q27"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout22" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="330dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q28"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout23" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q20"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout14" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="330dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q19"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24">
+
+
+            <RadioGroup
+                android:id="@+id/radio_group5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/view_below"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/Q18_yes"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Yes"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/Q18_no"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="No"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/Q18_Slightly"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Slightly"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q18"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="330dp"
+            android:layout_height="112dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/S18"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout12" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="330dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q17"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17">
+
+
+            <RadioGroup
+                android:id="@+id/radio_group4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/view_below"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/Q16_yes"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Yes"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/Q16_no"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="No"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/Q16_Sometimes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Sometimes"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q16"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="330dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Device functionality (e.g. functions performed, time duration of usage) "
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Audio"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visuals"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Personal Information (e.g. location, linked social media accounts)"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not sure about this"
+                app:buttonTint="#61B0C8" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="330dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q15"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15">
+
+
+            <RadioGroup
+                android:id="@+id/radio_group3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/view_below"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/Q14_yes"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Yes"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/Q14_no"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="No"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/Q14_NotSure"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Not Sure"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="330dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/Q14"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="106dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:lineSpacingExtra="20sp"
+            android:text="@string/Title4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#0A1971"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/imageView8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="424dp"
+            android:layout_height="62dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/top" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView6"
+            app:srcCompat="@drawable/exper" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="330dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20">
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company that manufactures the device"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Online Advertisers"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Government’s Information Technology departments"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Companies that provide Internet service  "
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A random person"
+                app:buttonTint="#61B0C8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25">
+
+            <RadioGroup
+                android:id="@+id/LinearLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Slightly"
+                    app:buttonTint="#61B0C8" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout16"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26">
+
+            <RadioGroup
+                android:id="@+id/LinearLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Slightly"
+                    app:buttonTint="#61B0C8" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout17"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27">
+
+            <RadioGroup
+                android:id="@+id/LinearLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Slightly"
+                    app:buttonTint="#61B0C8" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout18"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28">
+
+            <RadioGroup
+                android:id="@+id/LinearLayout10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton23"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton25"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Slightly"
+                    app:buttonTint="#61B0C8" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout19"
+            android:layout_width="330dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I think they offer several useful functionalities and I have (may install) them inside homes. "
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I think they are not required inside homes."
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I feel uncomfortable in their presence"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I think they are useful but I do not feel comfortable with having them inside homes"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I am not sure about this"
+                    app:buttonTint="#61B0C8" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout20"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton31"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton33"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Slightly"
+                    app:buttonTint="#61B0C8" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout21"
+            android:layout_width="330dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes, it is possible
+"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No, it cannot happen"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maybe, there are chances but I am unsure"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I have no clue about this"
+                    app:buttonTint="#61B0C8" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout22"
+            android:layout_width="330dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes, it is possible"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No, it cannot happen"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maybe, there are chances but I am unsure"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/radioButton41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I have no clue about this"
+                    app:buttonTint="#61B0C8" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout23"
+            android:layout_width="340dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34">
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Smartphone"
+                    app:buttonTint="#61B0C8" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Smart TV"
+                    app:buttonTint="#61B0C8" />
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Health Monitor"
+                    app:buttonTint="#61B0C8" />
+
+                <CheckBox
+                    android:id="@+id/checkBox10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Smart Watches"
+                    app:buttonTint="#61B0C8" />
+
+                <CheckBox
+                    android:id="@+id/checkBox12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Home Assistants "
+                    app:buttonTint="#61B0C8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Router"
+                    app:buttonTint="#61B0C8" />
+
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Security System"
+                    app:buttonTint="#61B0C8" />
+
+                <CheckBox
+                    android:id="@+id/checkBox9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sensors"
+                    app:buttonTint="#61B0C8" />
+
+                <CheckBox
+                    android:id="@+id/checkBox11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Smart Lights"
+                    app:buttonTint="#61B0C8" />
+
+                <CheckBox
+                    android:id="@+id/checkBox13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Others"
+                    app:buttonTint="#61B0C8" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout24"
+            android:layout_width="330dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35">
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="They contain a lot of personal information"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="They can monitor my daily routines"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="They manage the safety of my home"
+                app:buttonTint="#61B0C8" />
+
+            <CheckBox
+                android:id="@+id/checkBox24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Little attention is paid to keep them safe"
+                app:buttonTint="#61B0C8" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout26"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView37">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/Q30_yes"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Yes"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/Q30_no"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="No"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/Q30_Maybe"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Maybe"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout27"
+            android:layout_width="330dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/Q31_yes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Yes, I will feel insecure since my device(s) might be at risk"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/Q31_Maybe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="A little, but I doubt something wrong could happen"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+                <RadioButton
+                    android:id="@+id/Q31_No"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="No, I don't think it is something to feel concerned about"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:buttonTint="#61B0C8" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
