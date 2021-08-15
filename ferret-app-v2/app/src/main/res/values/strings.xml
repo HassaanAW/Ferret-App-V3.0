@@ -92,23 +92,29 @@
     <string name="secretKey"> Here is a secret key that you will need for the next part of the homework.
         Be sure to write it down somewhere safe for future use.</string>
 
-    <string name="dataCollection"> Data Collection </string>
-    <string name="dataCollectionText"> The application is going to collect the following data for the network you are currently on:</string>
-    <string name="dataCollectionText1"> Information on the connected devices like vendor, device model, hashed MAC Address, IP address. </string>
-    <string name="dataCollectionText2"> A list of open ports and servers running — along with the vulnerabilities they have — on the connected devices. </string>
-    <string name="dataCollectionText3"> The public IP of the network. </string>
-    <string name="dataCollectionText4"> Device names as they help us identify the type of device (for example, Wajeeha’s Ipad). You can choose to opt out of this if you want to.</string>
+    <string name="dataCollection"> What data will be collected? </string>
+    <string name="dataCollectionText"> This application is going to collect the following data for the network you are currently on:</string>
+    <string name="dataCollectionText1"> Information of the connected devices like vendor, device model, hashed MAC Address, and IP address. </string>
+    <string name="dataCollectionText2"> A list of open ports and servers running along with the vulnerabilities they have (of the connected devices). </string>
+    <string name="dataCollectionText3"> The public IP address of the network. </string>
+    <string name="dataCollectionText4"> Device names (for example, Ahmad’s Phone). You can choose to opt out of this if you want to.</string>
 
     <string name="nameCollectionConsent"> I agree to my device names being collected </string>
     <string name="macAddressesNotFound"> Unfortunately, we were unable to collect the MAC addresses of any of your devices.</string>
     <string name="pleaserunagain"> Please run the scan again.</string>
-    <string name="thankyou">Thank you for participating!</string>
-    <string name="runagain">Do you wish to run the scan again?</string>
+    <string name="thankyou">Thank you for filling the survey!</string>
+    <string name="thankyou2">Thank you for using the app!</string>
+    <string name="runagain">Please proceed to the device scan</string>
+    <string name="runagain2">Do you want to restart?</string>
     <string name="initialsurvey">Time for a survey!</string>
     <string name="finalsurvey">Time for another survey!</string>
-    <string name="surveyinstructions">Tap the Open Survey button below and answer the questions on the Google Form that pops up.\n\nTry to answer questions as truthfully and accurately as possible.\n\nOnce the Google Form Survey has been submitted, please tap your Android device\'s Back Button at the bottom to return back to the app and tap on the proceed button to continue.\n\nIn case you wish to change your answers, you can open the survey again by tapping the Open Survey button and change your responses on the Google Form that opens up.\n\nThank you for your patience and good luck!</string>
+    <string name="surveyinstructions">\nTap the Open Survey button below on the left and answer the survey questions.\n\nTry to answer them as truthfully and accurately as possible.\n\nOnce you are finished with the survey, click the Scan button that appears. It will take you to the scan screen.\n\nIn case you wish to change your answers, you can open the survey again by tapping the Open Survey button and change your responses.\n\nThank you for your patience and good luck!</string>
     >
+    <string name="surveyinstructions2">\nPlease proceed to the next survey. \n\nTap the Open Survey button below on the left and answer the survey questions.\n\nTry to answer them as truthfully and accurately as possible.\n\n<b>Please note that some of the questions are similar to the previous survey.</b>\n\nThank you for your patience and good luck!</string>
+    >
+
     <string name="surveyinstructionheadings">Instructions</string>
+    <string name="surveyinstructionsheading2">Thank you for using the app!</string>
 
     <string name="Ferret">Ferret</string>
     <string name="Title">Demographic Details</string>
@@ -160,7 +166,6 @@
     <string name="Q38">Which smart home device will you be (or are) concerned the most about (generally)? </string>
     <string name="Q39">Which smart home device will you be (or are) concerned the most about (generally)? </string>
     <string name="Q40">Which smart home device will you be (or are) concerned the most about (generally)? </string>
-
 
 
 </resources>

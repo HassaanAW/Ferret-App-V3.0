@@ -15,7 +15,8 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Experience"></activity>
+        <activity android:name=".First_Survey_Comp"></activity>
+        <activity android:name=".Experience" />
         <activity android:name=".SmartDevice" />
         <activity android:name=".TechSurvey" />
         <activity android:name=".Demographic" />

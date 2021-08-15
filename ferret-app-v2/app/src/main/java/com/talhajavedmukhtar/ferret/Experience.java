@@ -14,6 +14,11 @@ public class Experience extends AppCompatActivity {
         setContentView(R.layout.activity_experience);
     }
 
+    public void onClick(View v){
+        Intent intent = new Intent(this, First_Survey_Comp.class);
+        startActivity(intent);
+    }
+
     public void Previous(View v){
         Intent intent = new Intent(this, SmartDevice.class);
         startActivity(intent);

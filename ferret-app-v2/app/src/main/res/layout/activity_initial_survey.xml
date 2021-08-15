@@ -54,7 +54,7 @@
         android:paddingRight="15dp"
 
         android:text="@string/surveyinstructionheadings"
-        android:textColor="@color/Shakespeare"
+        android:textColor="@color/colorPrimary"
 
         android:textSize="17dp"
         android:textStyle="bold" />
@@ -81,9 +81,10 @@
         android:layout_marginStart="30dp"
 
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="197dp"
+        android:layout_marginTop="230dp"
         android:layout_marginBottom="16dp"
-        android:text="OPEN SURVEY" />
+        android:text="OPEN SURVEY"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/proceed"
@@ -98,11 +99,12 @@
         android:layout_marginStart="26dp"
         android:layout_marginLeft="26dp"
 
-        android:layout_marginTop="197dp"
+        android:layout_marginTop="230dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="16dp"
-        android:text="PROCEED" />
+        android:text="SCAN "
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
