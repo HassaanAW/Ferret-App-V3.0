@@ -121,6 +121,7 @@
     <string name="Title2">Tech Expertise</string>
     <string name="Title3">Smart Devices</string>
     <string name="Title4">Experience</string>
+    <string name="Title5">Future Aspects</string>
     <string name="Q1">Age Group</string>
     <string name="Q2">Gender</string>
     <string name="Q3">City</string>
@@ -156,16 +157,23 @@
     <string name="Q30">Q13. If there was an app that can identify weaknesses (viruses, leaked passwords, outdated softwares etc) in your smart home devices, would you use it often?</string>
     <string name="Q31">Q14. Would you feel concerned if your smart home devices showed weaknesses (viruses, leaked passwords, outdated softwares etc)?  </string>
 
+    <string name="Q32">Q1. Do you feel concerned with the results of the scan?</string>
+    <string name="Q33">Q2. Would you feel comfortable if an unknown person (outside family and close friends) gets access to or views your scan results?  </string>
+    <string name="S34">Q3. Would you be concerned if data collected from each of your smart home devices is analyzed by the following entities: </string>
+    <string name="Q35">a) Company that manufactures the device</string>
+    <string name="Q36">b) Online Advertisers</string>
+    <string name="Q37">c) Government’s Information Technology departments </string>
+    <string name="Q38">d) Companies that provide Internet service </string>
+    <string name="Q39">e) A random person </string>
+    <string name="Q40">Q4. Do you feel an unauthorized user can <b><i>obtain data</i></b> from your smart devices? </string>
+    <string name="Q41">Q5. Do you feel an unauthorized user can <b><i>control</i></b> your smart devices (e.g. change settings)? </string>
+    <string name="Q42">Q6. Which smart home device will you be concerned about from now on?</string>
+    <string name="Q43">Q7. Why would you be concerned with the smart devices you chose in the previous question? Please select all that apply.</string>
+    <string name="Q44">Q8. Would the scan results influence your choice of brand for a smart home device?</string>
+    <string name="Q45">Q9. Would you take any steps to make your smart devices safer?</string>
+    <string name="Q46">Q10. Would you use this or similar apps regularly to keep yourself updated about weaknesses within your smart devices?</string>
 
-    <string name="Q32">Which smart home device will you be (or are) concerned the most about (generally)? </string>
-    <string name="Q33">Which smart home device will you be (or are) concerned the most about (generally)? </string>
-    <string name="Q34">Which smart home device will you be (or are) concerned the most about (generally)? </string>
-    <string name="Q35">Which smart home device will you be (or are) concerned the most about (generally)? </string>
-    <string name="Q36">Which smart home device will you be (or are) concerned the most about (generally)? </string>
-    <string name="Q37">Which smart home device will you be (or are) concerned the most about (generally)? </string>
-    <string name="Q38">Which smart home device will you be (or are) concerned the most about (generally)? </string>
-    <string name="Q39">Which smart home device will you be (or are) concerned the most about (generally)? </string>
-    <string name="Q40">Which smart home device will you be (or are) concerned the most about (generally)? </string>
+
 
 
 </resources>

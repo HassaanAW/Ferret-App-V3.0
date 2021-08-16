@@ -139,6 +139,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Smartphone"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <CheckBox
@@ -146,6 +147,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Smart TV"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <CheckBox
@@ -153,6 +155,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Health Monitor"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <CheckBox
@@ -160,6 +163,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Smart Watches"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <CheckBox
@@ -167,6 +171,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Home Assistants "
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
         </LinearLayout>
 
@@ -180,6 +185,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Router"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <CheckBox
@@ -187,6 +193,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Security System"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <CheckBox
@@ -194,6 +201,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sensors"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <CheckBox
@@ -201,6 +209,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Smart Lights"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <CheckBox
@@ -208,6 +217,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Others"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
         </LinearLayout>
     </LinearLayout>
@@ -232,6 +242,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Functionality"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <RadioButton
@@ -239,6 +250,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Convenience"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <RadioButton
@@ -246,6 +258,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Privacy and Security (of device)"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <RadioButton
@@ -253,6 +266,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Brand Popularity"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
 
             <RadioButton
@@ -260,6 +274,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Price"
+                android:textSize="16sp"
                 app:buttonTint="#61B0C8" />
         </RadioGroup>
     </LinearLayout>
