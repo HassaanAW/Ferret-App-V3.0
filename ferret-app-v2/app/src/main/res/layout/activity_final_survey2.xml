@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -32,7 +32,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout7"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:orientation="horizontal"
@@ -90,8 +90,8 @@
 
     <TextView
         android:id="@+id/textView51"
-        android:layout_width="330dp"
-        android:layout_height="84dp"
+        android:layout_width="300dp"
+        android:layout_height="112dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed-medium"
@@ -105,7 +105,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout6"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:orientation="horizontal"
@@ -163,8 +163,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout24"
-        android:layout_width="330dp"
-        android:layout_height="175dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
         android:layout_marginStart="20dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -210,13 +210,13 @@
             android:layout_height="wrap_content"
             android:text="Scans showed that it had weaknesses"
             android:textSize="16sp"
-            app:buttonTint="#61B0C8"/>
+            app:buttonTint="#61B0C8" />
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout23"
-        android:layout_width="340dp"
+        android:layout_width="310dp"
         android:layout_height="170dp"
         android:layout_marginStart="20dp"
         android:orientation="horizontal"
@@ -226,7 +226,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView47">
 
         <LinearLayout
-            android:layout_width="170dp"
+            android:layout_width="155dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
@@ -272,7 +272,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="170dp"
+            android:layout_width="155dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
@@ -320,8 +320,8 @@
 
     <TextView
         android:id="@+id/textView47"
-        android:layout_width="330dp"
-        android:layout_height="56dp"
+        android:layout_width="300dp"
+        android:layout_height="84dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed-medium"
@@ -335,7 +335,7 @@
 
     <TextView
         android:id="@+id/textView48"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="112dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -350,7 +350,7 @@
 
     <TextView
         android:id="@+id/textView49"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="84dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -365,7 +365,7 @@
 
     <TextView
         android:id="@+id/textView50"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="56dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -380,7 +380,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout22"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="140dp"
         android:layout_marginStart="20dp"
         android:orientation="vertical"
@@ -430,7 +430,7 @@
 
     <TextView
         android:id="@+id/textView46"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="84dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -445,7 +445,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout21"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="140dp"
         android:layout_marginStart="20dp"
         android:orientation="vertical"
@@ -495,7 +495,7 @@
 
     <TextView
         android:id="@+id/textView40"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="28dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -510,7 +510,7 @@
 
     <TextView
         android:id="@+id/textView41"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="56dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -525,7 +525,7 @@
 
     <TextView
         android:id="@+id/textView42"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="56dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -540,7 +540,7 @@
 
     <TextView
         android:id="@+id/textView43"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="28dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -555,8 +555,8 @@
 
     <TextView
         android:id="@+id/textView44"
-        android:layout_width="330dp"
-        android:layout_height="56dp"
+        android:layout_width="300dp"
+        android:layout_height="84dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="20dp"
@@ -571,8 +571,8 @@
 
     <TextView
         android:id="@+id/textView45"
-        android:layout_width="330dp"
-        android:layout_height="84dp"
+        android:layout_width="300dp"
+        android:layout_height="112dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed-medium"
@@ -587,7 +587,7 @@
 
     <TextView
         android:id="@+id/textView39"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="56dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -602,7 +602,7 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="112dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -617,8 +617,8 @@
 
     <TextView
         android:id="@+id/textView21"
-        android:layout_width="330dp"
-        android:layout_height="112dp"
+        android:layout_width="300dp"
+        android:layout_height="115dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed-medium"
@@ -632,10 +632,10 @@
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="56dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/Q32"
@@ -652,6 +652,7 @@
         android:layout_height="32dp"
         android:layout_marginStart="90dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:gravity="center|center_horizontal|center_vertical"
         android:lineSpacingExtra="20sp"
@@ -661,7 +662,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/imageView10"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
@@ -676,8 +677,8 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="109dp"
+        android:layout_height="125dp"
         android:layout_marginTop="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -685,7 +686,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout27"
-        android:layout_width="330dp"
+        android:layout_width="295dp"
         android:layout_height="130dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -740,7 +741,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout13"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:orientation="horizontal"
@@ -795,7 +796,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout15"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:orientation="horizontal"
@@ -850,7 +851,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout28"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:orientation="horizontal"
@@ -905,7 +906,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout29"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:orientation="horizontal"
@@ -960,7 +961,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout30"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:orientation="horizontal"
@@ -1015,7 +1016,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout31"
-        android:layout_width="330dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:orientation="horizontal"
@@ -1070,8 +1071,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout32"
-        android:layout_width="320dp"
-        android:layout_height="180dp"
+        android:layout_width="300dp"
+        android:layout_height="190dp"
         android:layout_marginStart="20dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"

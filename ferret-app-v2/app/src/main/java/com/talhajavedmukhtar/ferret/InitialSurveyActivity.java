@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.talhajavedmukhtar.ferret.Util.Tags;
+import com.talhajavedmukhtar.ferret.Util.Utils;
 
 public class InitialSurveyActivity extends AppCompatActivity {
 
@@ -23,6 +24,9 @@ public class InitialSurveyActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         LoadPreferences();
+        Log.d("MACADD:", Utils.getMacAddr());
+        Log.d("MDHASH", Utils.md5(Utils.getMacAddr()));
+
         if (InitialSurveyOpened == 1) {
             proceed.getBackground().setAlpha(255);
             proceed.setOnClickListener(new View.OnClickListener() {
