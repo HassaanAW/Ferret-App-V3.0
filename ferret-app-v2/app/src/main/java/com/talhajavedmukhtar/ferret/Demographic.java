@@ -59,7 +59,7 @@ public class Demographic extends AppCompatActivity {
         dropdown2.setAdapter(adapter2);
 
         dropdown3 = findViewById(R.id.spinner3);
-        String[] items3 = new String[]{ "Optix", "PTCL", "StormFiber","Wateen", "Wi-Tribe", "Worldcall", "Zong", "Other" };
+        String[] items3 = new String[]{ "Optix", "PTCL", "Q-Link", "StormFiber","Wateen", "Wi-Tribe", "Worldcall", "Zong", "Other" };
         ArrayAdapter<String> adapter3 = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items3);
         dropdown3.setAdapter(adapter3);
 

@@ -57,8 +57,7 @@ public class InitialSurveyActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(getApplicationContext(), Demographic.class);
-                Intent intent = new Intent(getApplicationContext(), FinalSurvey.class);
+                Intent intent = new Intent(getApplicationContext(), Demographic.class);
                 startActivity(intent);
 
             }

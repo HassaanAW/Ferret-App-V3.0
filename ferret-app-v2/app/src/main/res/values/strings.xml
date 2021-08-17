@@ -108,9 +108,9 @@
     <string name="runagain2">Do you want to restart?</string>
     <string name="initialsurvey">Time for a survey!</string>
     <string name="finalsurvey">Time for another survey!</string>
-    <string name="surveyinstructions">\nTap the Open Survey button below on the left and answer the survey questions.\n\nTry to answer them as truthfully and accurately as possible.\n\nOnce you are finished with the survey, click the Scan button that appears. It will take you to the scan screen.\n\nIn case you wish to change your answers, you can open the survey again by tapping the Open Survey button and change your responses.\n\nThank you for your patience and good luck!</string>
+    <string name="surveyinstructions">\nTap the <b>Open Survey</b> button below on the left and answer the survey questions.\n\nTry to answer them as truthfully and accurately as possible.\n\nOnce you are finished with the survey, click the <b>Scan</b> button that appears. It will take you to the scan screen.\n\nIn case you wish to change your answers, you can open the survey again by tapping the Open Survey button and change your responses.\n\nThank you for your patience and good luck!</string>
     >
-    <string name="surveyinstructions2">\nPlease proceed to the next survey. \n\nTap the Open Survey button below on the left and answer the survey questions.\n\nTry to answer them as truthfully and accurately as possible.\n\n<b>Please note that some of the questions are similar to the previous survey.</b>\n\nThank you for your patience and good luck!</string>
+    <string name="surveyinstructions2">\nPlease proceed to the next survey. \n\nTap the <b>Open Survey</b> button below on the left and answer the survey questions.\n\nTry to answer them as truthfully and accurately as possible.\n\n<b>Please note that some of the questions are similar to the previous survey.</b>\n\nThank you for your patience and good luck!</string>
     >
 
     <string name="surveyinstructionheadings">Instructions</string>
