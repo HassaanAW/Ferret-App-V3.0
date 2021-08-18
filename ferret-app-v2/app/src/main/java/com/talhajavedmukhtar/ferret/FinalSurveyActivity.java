@@ -23,7 +23,6 @@ public class FinalSurveyActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         LoadPreferences();
-        if (FinalSurveyOpened == 1) {
             proceed.getBackground().setAlpha(255);
             proceed.setOnClickListener(new View.OnClickListener() {
 
@@ -38,7 +37,6 @@ public class FinalSurveyActivity extends AppCompatActivity {
 
                 }
             });
-        }
     }
 
     @Override

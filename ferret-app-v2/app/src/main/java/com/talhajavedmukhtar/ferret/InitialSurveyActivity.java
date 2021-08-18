@@ -27,7 +27,6 @@ public class InitialSurveyActivity extends AppCompatActivity {
         Log.d("MACADD:", Utils.getMacAddr());
         Log.d("MDHASH", Utils.md5(Utils.getMacAddr()));
 
-        if (InitialSurveyOpened == 1) {
             proceed.getBackground().setAlpha(255);
             proceed.setOnClickListener(new View.OnClickListener() {
 
@@ -42,7 +41,7 @@ public class InitialSurveyActivity extends AppCompatActivity {
 
                 }
             });
-        }
+
     }
 
     @Override
