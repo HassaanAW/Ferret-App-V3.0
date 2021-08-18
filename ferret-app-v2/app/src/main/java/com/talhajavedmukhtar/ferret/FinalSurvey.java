@@ -332,7 +332,7 @@ public class FinalSurvey extends AppCompatActivity {
             map.put("PostScan_UseApp", Get_46);
 
             DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
-            databaseReference.child(MD5).child("Final Survey").updateChildren(map);
+            databaseReference.child(MD5).updateChildren(map);
             Toast.makeText(FinalSurvey.this, "Response Submitted", Toast.LENGTH_SHORT).show();
 
             Intent intent = new Intent(this, ThankYouActivity.class);

@@ -429,43 +429,43 @@ public class Experience extends AppCompatActivity {
         }
         else{
             HashMap<String, Object> map = new HashMap<>();
-            map.put("Gender", get_gender);
-            map.put("Age", get_age);
-            map.put("City", get_city);
-            map.put("Region", get_region);
-            map.put("ISP", get_ISP);
+            map.put("Pre_Gender", get_gender);
+            map.put("Pre_Age", get_age);
+            map.put("Pre_City", get_city);
+            map.put("Pre_Region", get_region);
+            map.put("Pre_ISP", get_ISP);
 
-            map.put("CS Degree", get_degree);
-            map.put("Tech Industry", get_industry);
-            map.put("Security Field", get_security);
-            map.put("Taken Courses", get_course);
-            map.put("Security Courses", get_sec_course);
-            map.put("Language", get_language);
+            map.put("Pre_CS Degree", get_degree);
+            map.put("Pre_Tech Industry", get_industry);
+            map.put("Pre_Security Field", get_security);
+            map.put("Pre_Taken Courses", get_course);
+            map.put("Pre_Security Courses", get_sec_course);
+            map.put("Pre_Language", get_language);
 
-            map.put("Smart Devices", Get_SmartDevices);
-            map.put("Priority while Buying", get_priority);
+            map.put("Pre_Smart Devices", Get_SmartDevices);
+            map.put("Pre_Priority while Buying", get_priority);
 
-            map.put("Data Collected", Get_14);
-            map.put("Sort of Data", Get_15);
-            map.put("ConcernedRecording", Get_16);
-            map.put("CanAccess", Get_17);
-            map.put("DeviceMan", Get_18);
-            map.put("OnlineAdv", Get_19);
-            map.put("Govt", Get_20);
-            map.put("ISP_Agency", Get_21);
-            map.put("RandomPerson", Get_22);
-            map.put("SecurityCam", Get_23);
-            map.put("Lifestyle", Get_24);
-            map.put("ObtainData", Get_25);
-            map.put("Control", Get_26);
-            map.put("MostConcerned", Get_27);
-            map.put("Why_Concerned", Get_28);
-            map.put("StepsTaken", Get_29);
-            map.put("UseApps", Get_30);
-            map.put("WouldWorry", Get_31);
+            map.put("Pre_Data Collected", Get_14);
+            map.put("Pre_Sort of Data", Get_15);
+            map.put("Pre_ConcernedRecording", Get_16);
+            map.put("Pre_CanAccess", Get_17);
+            map.put("Pre_DeviceMan", Get_18);
+            map.put("Pre_OnlineAdv", Get_19);
+            map.put("Pre_Govt", Get_20);
+            map.put("Pre_ISP_Agency", Get_21);
+            map.put("Pre_RandomPerson", Get_22);
+            map.put("Pre_SecurityCam", Get_23);
+            map.put("Pre_Lifestyle", Get_24);
+            map.put("Pre_ObtainData", Get_25);
+            map.put("Pre_Control", Get_26);
+            map.put("Pre_MostConcerned", Get_27);
+            map.put("Pre_Why_Concerned", Get_28);
+            map.put("Pre_StepsTaken", Get_29);
+            map.put("Pre_UseApps", Get_30);
+            map.put("Pre_WouldWorry", Get_31);
 
             DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
-            databaseReference.child(MD5).child("Initial Survey").updateChildren(map);
+            databaseReference.child(MD5).updateChildren(map);
             Toast.makeText(Experience.this, "Response Submitted", Toast.LENGTH_SHORT).show();
 
             Intent intent = new Intent(this, First_Survey_Comp.class);
