@@ -52,9 +52,9 @@ public class Demographic extends AppCompatActivity {
         dropdown.setAdapter(adapter);
 
         dropdown2 = findViewById(R.id.spinner2);
-        String[] items2 = new String[]{"Allama Iqbal Town","Askari Phase 9", "Askari Phase 10", "Bahria Town","Cantt", "DHA Phase 1", "DHA Phase 2","DHA Phase 3"
+        String[] items2 = new String[]{"Allama Iqbal Town","Askari 9", "Askari 10", "Bahria Town","Cantt", "DHA Phase 1", "DHA Phase 2","DHA Phase 3"
                 , "DHA Phase 4", "DHA Phase 5","DHA Phase 6", "EME Society", "Gulberg", "Izmir Society", "Johar Town", "Lake City", "Model Town", "Revenue Society",
-                "Wapda Town", "Other"};
+                "Valencia Society","Wapda Town", "Other"};
         ArrayAdapter<String> adapter2 = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items2);
         dropdown2.setAdapter(adapter2);
 

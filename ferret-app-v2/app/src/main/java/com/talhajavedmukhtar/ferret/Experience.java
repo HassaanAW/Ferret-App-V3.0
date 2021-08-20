@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
@@ -44,6 +45,7 @@ public class Experience extends AppCompatActivity {
 
         devMac = Utils.getMacAddr();
         MD5 = Utils.md5(devMac);
+        Log.d("MDHash", MD5);
         // Get from intent
         get_city = getIntent().getStringExtra("City");
         get_gender = getIntent().getStringExtra("Gender");
