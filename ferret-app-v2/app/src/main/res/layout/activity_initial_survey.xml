@@ -91,7 +91,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="230dp"
         android:layout_marginBottom="32dp"
-        android:text="OPEN SURVEY"
+        android:text="SKIP SURVEY"
         android:textStyle="bold" />
 
     <Button
@@ -111,7 +111,7 @@
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="32dp"
-        android:text="SCAN "
+        android:text="TAKE SURVEY"
         android:textStyle="bold" />
 
 

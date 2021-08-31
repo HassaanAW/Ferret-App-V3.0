@@ -2,7 +2,7 @@ package com.talhajavedmukhtar.ferret;
 
 import android.content.Intent;
 import android.graphics.Color;
-import androidx.core.content.ContextCompat;
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -10,13 +10,18 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.talhajavedmukhtar.ferret.Model.VulnDetailsData;
 import com.talhajavedmukhtar.ferret.Util.Tags;
 import com.talhajavedmukhtar.ferret.Util.VulnDetailsAdapter;
 
+import java.lang.annotation.Target;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class HostDataActivity extends AppCompatActivity {
     TextView vendor;
@@ -28,6 +33,7 @@ public class HostDataActivity extends AppCompatActivity {
     TextView open_ports;
 
     private String TAG = Tags.makeTag("HostDataActivity");
+    private List<String> Threats = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +45,12 @@ public class HostDataActivity extends AppCompatActivity {
         vulnerable = findViewById(R.id.vulnerable);
         no_of_vulns = findViewById(R.id.numvulnerable);
         vulndetailsheading = findViewById(R.id.vulndetailsheading);
-        open_ports = findViewById(R.id.open_ports);
+        // open_ports = findViewById(R.id.open_ports);
+
+//        Threats.add("Applications can behave unexpectedly. They can crash, exit or restart forcefully");
+//        Threats.add("An attacker can read, change or delete files on a system");
+//        Threats.add("System has degraded performance which results in slowed response or incomplete functionality");
+
 
 //        imageView = findViewById(R.id.imageView);
         Intent intent = getIntent();
@@ -54,11 +65,11 @@ public class HostDataActivity extends AppCompatActivity {
 
         ArrayList<Integer> open_ports_list = new ArrayList<Integer>();
         open_ports_list = intent.getIntegerArrayListExtra("open_ports");
-        if (open_ports_list != null) {
-            open_ports.setText(open_ports_list.toString().trim());
-        } else {
-            open_ports.setText("None");
-        }
+//        if (open_ports_list != null) {
+//            open_ports.setText(open_ports_list.toString().trim());
+//        } else {
+//            open_ports.setText("None");
+//        }
 
 
         int numofvulnerable = intent.getIntExtra("numofvulnerable", 0);
@@ -71,8 +82,6 @@ public class HostDataActivity extends AppCompatActivity {
         vendor.setText(receivedVendor.trim());
         deviceName.setText(receivedDeviceName.trim());
         ipAddress.setText(receivedIpAddress.trim());
-        no_of_vulns.setText(Integer.toString(numofvulnerable).trim());
-
 
         if (receivedVulnerable == true) {
             vulnerable.setText("Yes");
@@ -95,10 +104,14 @@ public class HostDataActivity extends AppCompatActivity {
 
         for (int i = 0; i < idents.size(); i++) {
             vulndetails[i] = new VulnDetailsData(idents.get(i), descs.get(i));
+            Threats.add(descs.get(i));
         }
+        Set<String> uniqueThreats = new HashSet<String>(Threats);
+        List<String> targetList = new ArrayList<>(uniqueThreats);
+        no_of_vulns.setText(Integer.toString(targetList.size()).trim());
 // comment this block of code to disable vulnerability details
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.vulndetails);
-        VulnDetailsAdapter adapter = new VulnDetailsAdapter(vulndetails);
+        VulnDetailsAdapter adapter = new VulnDetailsAdapter(targetList);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);

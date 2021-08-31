@@ -106,36 +106,37 @@
             android:textColor="@color/Shakespeare"
             android:textSize="20dp" />
 
-        <TextView
-            android:id="@+id/open_portsLabel"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/ipAddressLabel"
-            android:layout_marginTop="20dp"
-            android:fontFamily="sans-serif-condensed"
-            android:text="Open Ports:"
-            android:textColor="@color/Black"
-            android:textSize="20dp" />
+<!--        <TextView-->
+<!--            android:id="@+id/open_portsLabel"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/ipAddressLabel"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:fontFamily="sans-serif-condensed"-->
+<!--            android:text="Open Ports:"-->
+<!--            android:textColor="@color/Black"-->
+<!--            android:textSize="20dp" />-->
 
-        <TextView
+<!--        <TextView-->
 
-            android:id="@+id/open_ports"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ipAddress"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="20dp"
-            android:layout_toRightOf="@id/open_portsLabel"
+<!--            android:id="@+id/open_ports"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/ipAddress"-->
+<!--            android:layout_marginLeft="0dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_toRightOf="@id/open_portsLabel"-->
 
-            android:text="..."
-            android:textColor="@color/Shakespeare"
-            android:textSize="20dp" />
+<!--            android:text="..."-->
+<!--            android:textColor="@color/Shakespeare"-->
+<!--            android:textSize="20dp" />-->
+
 
         <TextView
             android:id="@+id/vulnerableLabel"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/open_portsLabel"
+            android:layout_below="@+id/ipAddressLabel"
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-condensed"
             android:text="Vulnerable:"
@@ -147,7 +148,7 @@
             android:id="@+id/vulnerable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/open_ports"
+            android:layout_below="@id/ipAddress"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="20dp"
             android:layout_toRightOf="@id/vulnerableLabel"
@@ -164,7 +165,7 @@
             android:layout_below="@+id/vulnerable"
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="Number of Vulnerabilities:"
+            android:text="Number of Weaknesses:"
             android:textColor="@color/Black"
             android:textSize="20dp" />
 
@@ -190,8 +191,8 @@
             android:layout_below="@+id/numvulnerableLabel"
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-condensed-medium"
-            android:text="Vulnerability Details"
-            android:textColor="@color/frowncolors"
+            android:text="Weakness Details"
+            android:textColor="@color/Shakespeare"
             android:textSize="20dp"
             android:textStyle="bold" />
 

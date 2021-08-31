@@ -104,13 +104,13 @@
     <string name="pleaserunagain"> Please run the scan again.</string>
     <string name="thankyou">Thank you for filling the survey!</string>
     <string name="thankyou2">Thank you for using the app!</string>
-    <string name="runagain">Please proceed to the device scan</string>
+    <string name="runagain">Lets check for weaknesses in devices on your home WiFi!</string>
     <string name="runagain2">Do you want to restart?</string>
     <string name="initialsurvey">Time for a survey!</string>
     <string name="finalsurvey">Time for another survey!</string>
-    <string name="surveyinstructions">\nTap the <b>Open Survey</b> button below on the left and answer the survey questions.\n\nTry to answer them as truthfully and accurately as possible.\n\nOnce you are finished with the survey, click the <b>Scan</b> button that appears. It will take you to the scan screen.\n\nIn case you wish to change your answers, you can open the survey again by tapping the Open Survey button and change your responses.\n\nThank you for your patience and good luck!</string>
+    <string name="surveyinstructions">\nTap the <b>Take Survey</b> button below on the right and answer the survey questions.\n\nTry to answer them as truthfully and accurately as possible.\n\nOnce you are finished with the survey, click the <b>Scan</b> button that appears. It will take you to the scan screen.\n\nIn case you wish to change your answers, you can open the survey again by tapping the Take Survey button and change your responses.\n\nThank you for your patience and good luck!</string>
     >
-    <string name="surveyinstructions2">\nPlease move to the next survey. \n\nTap the <b>Open Survey</b> button below on the left and answer the survey questions.\n\nTry to answer them as truthfully and accurately as possible.\n\n<b>Please note that some of the questions are similar to the previous survey.</b>\n\nThank you for your patience and good luck!</string>
+    <string name="surveyinstructions2">\nPlease move to the next survey. \n\nTap the <b>Take Survey</b> button below on the right and answer the survey questions.\n\nTry to answer them as truthfully and accurately as possible.\n\n<b>Please note that some of the questions are similar to the previous survey.</b>\n\nThank you for your patience and good luck!</string>
     >
 
     <string name="surveyinstructionheadings">Instructions</string>
@@ -121,7 +121,7 @@
     <string name="Title2">Tech Expertise</string>
     <string name="Title3">Smart Devices</string>
     <string name="Title4">Experience</string>
-    <string name="Title5">Future Aspects</string>
+    <string name="Title5">User Response</string>
     <string name="Q1">Age Group</string>
     <string name="Q2">Gender</string>
     <string name="Q3">City</string>
@@ -172,8 +172,5 @@
     <string name="Q44">Q8. Would the scan results influence your choice of brand for a smart home device?</string>
     <string name="Q45">Q9. Would you take any steps to make your smart devices safer?</string>
     <string name="Q46">Q10. Would you use this or similar apps regularly to keep yourself updated about weaknesses within your smart devices?</string>
-
-
-
 
 </resources>

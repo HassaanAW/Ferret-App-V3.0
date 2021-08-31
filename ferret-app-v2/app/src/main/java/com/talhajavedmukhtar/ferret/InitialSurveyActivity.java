@@ -33,7 +33,7 @@ public class InitialSurveyActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    Intent intent = new Intent(getApplicationContext(), ScanActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), Demographic.class);
                     startActivity(intent);
 
                     finish();
@@ -60,7 +60,7 @@ public class InitialSurveyActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Demographic.class);
+                Intent intent = new Intent(getApplicationContext(), ScanActivity.class);
                 startActivity(intent);
 
             }
